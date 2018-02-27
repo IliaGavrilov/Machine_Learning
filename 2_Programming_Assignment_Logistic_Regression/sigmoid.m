@@ -14,7 +14,7 @@ g = zeros(size(z)); %1 by 3 vector
 %prob = sigmoid([1 45 85] * theta)
 %theta is 3 by 1 zeros
 %exp(z)
-g=1./(1+exp(-z))
+g=1./(1+exp(-z));
 
 
 
